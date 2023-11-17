@@ -38,23 +38,38 @@ store.mainContent({ mode: "narrow" });
         <BaseNavigation
           :nodes="[
             {
-              name: 'Dashboard',
+              name: 'Laporan',
               to: 'backend-dashboard',
-              icon: 'si si-speedometer',
+              icon: 'si si-chart',
             },
             {
-              name: 'More',
+              name: 'Aktivitas',
+              to: 'landing',
+              icon: 'si si-fire',
+            },
+            {
+              name: 'Group Member',
+              to: 'landing',
+              icon: 'si si-users',
+            },
+            {
+              name: 'Jadwal',
+              to: 'landing',
+              icon: 'si si-calendar',
+            },
+            {
+              name: 'Pendukung',
               heading: true,
             },
             {
-              name: 'Landing',
+              name: 'Bantuan',
               to: 'landing',
-              icon: 'si si-rocket',
+              icon: 'si si-question',
             },
             {
-              name: 'Landing', //label
+              name: 'Pengaturan', //label
               to: 'landing', //route i starter.js
-              icon: 'si si-rocket', //icon
+              icon: 'si si-settings', //icon
             },
           ]"
         />
